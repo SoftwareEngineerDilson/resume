@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 25px;
+}
+hr {
+    border: 1px solid #ccc;
+    border-style:inset;
+    border-color:#fcf8f8;
+    margin: 20px 0;
+}
+h1, h2, h4 {
+    color:rgb(2, 85, 58);
+}
+p, li{
+    color: #555;
+    text-align: justify;
+    font-size: 14px;
+}
+ul {
+    list-style-type: disc;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Heading */
+.heading {
+  display: flex;
+  flex-direction: row; /* Side by side on desktop */
+}
+.heading_desc {
+    margin-left: 30px;
+}
+.heading_name {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 4px;
+}
+.heading_title {
+    font-size: 20px;
+    color: #777;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.heading_info {
+    font-style: italic;
+    margin-top: 2px;
+}
+.img_profile{
+    margin-top: 30px;
+}
+.toggle_button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #1e00ffa7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Heading */
+/* Education */
+.education_title {
+    font-size: 15px;
+    margin-bottom: 4px;
+    
+}
+.education_school, .education_status {
+    text-align: justify;
+    margin: 0;
+}
+.education_title, .education_school, .education_status {
+    margin-left: 20px;
+}
+/*Award*/
+.award {
+    margin: 0px;
+}
+.detail{
+    margin-top: 2px;
+}
+.award, .detail {
+    margin-left: 20px; 
+}
+/*Award*/
+/* Experience */
+.experience_title{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.experience_company{
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+/* Experience */
+/* Footer */
+#footer {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* Footer */
+
+@media (max-width:550px) {
+    /* Heading */
+    .heading {
+        flex-direction: column; /* Stacked vertically on mobile */
+    }
+    .img_profile {
+        text-align: center; /* Center the image on mobile */
+        margin-top: 20px; /* Add some space above the image on mobile */
+    }
+    .heading_name {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0 auto; /* Center the name on mobile */
+        margin-bottom: 4px;
+    }  
+    .heading_info, .heading_title, .heading_name {
+        text-align: center; /* Center the text on mobile */
+    }
+    .heading_desc {
+        margin: 0 auto; /* Center the paragraph on mobile */
+        text-align: center; /* Center the text on mobile */
+    }
+    .heading_info{
+        margin: 0 auto; /* Center the paragraph on mobile */
+        font-style: italic;
+    }
+    /* Heading */
+}
