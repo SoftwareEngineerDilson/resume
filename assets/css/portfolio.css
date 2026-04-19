@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 80px;
+  margin: 20px;
 }
 hr {
   border: 1px solid #ccc;
@@ -16,8 +16,8 @@ h4 {
 p,
 li {
   color: #555;
-  text-align: justify;
-  font-size: 14px;
+  text-align: left;
+  font-size: 16px;
 }
 ul {
   list-style-type: disc;
