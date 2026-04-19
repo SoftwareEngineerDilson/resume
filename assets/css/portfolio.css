@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 20px;
+  margin: 20px 200px;
 }
 hr {
   border: 1px solid #ccc;
@@ -116,7 +116,10 @@ a:hover {
 }
 /* Footer */
 
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
+  body {
+    margin: 50px;
+  }
   /* Heading */
   .heading {
     flex-direction: column; /* Stacked vertically on mobile */
