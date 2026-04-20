@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px 200px;
-  background: linear-gradient(90deg, #43c6ac, #f8ffae););
+  background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 h1,
 h2,
@@ -29,7 +29,7 @@ a:hover {
 .heading {
   display: flex;
   flex-direction: row; /* Side by side on desktop */
-  background: linear-gradient(90deg, #43c6ac, #f8ffae);
+  background: linear-gradient(90deg, #cdffd8, #94b9ff);
   padding: 20px;
   border-radius: 5px;
 }
@@ -70,19 +70,22 @@ a:hover {
 #objective {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe2, #f5f7fa);
+  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
+  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 /* Skills */
 #technical-skills {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe2, #f5f7fa);
+  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
+  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 /* Education */
 #education {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe2, #f5f7fa);
+  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
+  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .education_title {
   font-size: 15px;
@@ -102,7 +105,8 @@ a:hover {
 #awards {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe2, #f5f7fa);
+  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
+  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .award {
   margin: 0px;
@@ -119,13 +123,14 @@ a:hover {
 #experience {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe2, #f5f7fa);
+  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
+  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .experience {
   padding: 10px;
   margin: 0px 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe2, #f5f7fa);
+  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .experience_title {
   font-size: 16px;
@@ -148,7 +153,7 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #43c6ac, #f8ffae);
+  background: linear-gradient(90deg, #cdffd8, #94b9ff);
 }
 /* Footer */
 
