@@ -1,35 +1,25 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0px 200px;
+  /* margin: 0px 200px; */
   background: linear-gradient(90deg, #e6e9f0, #eef1f5);
 }
-h1,
+/* h1,
 h2,
 h4 {
   color: darkslategrey;
-}
+} */
 p,
 li {
-  color: #555;
   text-align: left;
-  font-size: 16px;
 }
 ul {
   list-style-type: disc;
-}
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
 }
 
 /* Heading */
 .heading {
   display: flex;
   flex-direction: row; /* Side by side on desktop */
-  /* background: linear-gradient(90deg, #cdffd8, #94b9ff); */
   padding: 20px;
   border-radius: 5px;
 }
@@ -37,13 +27,10 @@ a:hover {
   margin-left: 30px;
 }
 .heading_name {
-  font-size: 35px;
-  font-weight: bold;
   margin-top: 70px;
   margin-bottom: 4px;
 }
 .heading_title {
-  font-size: 20px;
   color: #777;
   margin-top: 0px;
   margin-bottom: 8px;
@@ -52,42 +39,25 @@ a:hover {
   margin-top: 2px;
 }
 .img_profile {
-  margin-top: 30px;
-}
-.toggle_button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 14px;
-  background-color: #1e00ffa7;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  margin-top: 50px;
 }
 /* Heading */
 /* Objective */
 #objective {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
-  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 /* Skills */
 #technical-skills {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
-  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 /* Education */
 #education {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
-  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .education_title {
-  font-size: 15px;
   margin-bottom: 4px;
 }
 .education_school,
@@ -104,8 +74,6 @@ a:hover {
 #awards {
   padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
-  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .award {
   margin: 0px;
@@ -120,23 +88,16 @@ a:hover {
 /*Award*/
 /* Experience */
 #experience {
-  padding: 10px;
   border-radius: 5px;
-  background: linear-gradient(90deg, #c3cfe24c, #f5f7fa57);
-  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .experience {
-  padding: 10px;
-  margin: 0px 10px;
+  padding: 15px;
   border-radius: 5px;
-  box-shadow: 0 10px 20px rgba(30, 29, 29, 0.1);
 }
 .experience_title {
-  font-size: 16px;
   margin-bottom: 4px;
 }
 .experience_company {
-  font-weight: bold;
   margin-bottom: 4px;
   margin-top: 4px;
 }
@@ -144,10 +105,9 @@ a:hover {
 
 /* Footer */
 #footer {
-  margin: 0px;
+  margin: 20px;
   margin-top: 20px;
   color: #777;
-  font-size: 14px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -155,11 +115,32 @@ a:hover {
   background: linear-gradient(90deg, #e6e9f0, #eef1f5);
 }
 /* Footer */
-
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   body {
     margin: 0px 20px;
   }
+}
+@media (min-width: 501px) and (max-width: 800px) {
+  body {
+    margin: 0px 40px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+  body {
+    margin: 0px 100px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+  body {
+    margin: 0px 150px;
+  }
+}
+@media (min-width: 1201px) {
+  body {
+    margin: 0px 300px;
+  }
+}
+@media (max-width: 800px) {
   /* Heading */
   .heading {
     flex-direction: column; /* Stacked vertically on mobile */
@@ -169,8 +150,6 @@ a:hover {
     margin-top: 20px; /* Add some space above the image on mobile */
   }
   .heading_name {
-    font-size: 35px;
-    font-weight: bold;
     margin: 0 auto; /* Center the name on mobile */
     margin-bottom: 4px;
   }
