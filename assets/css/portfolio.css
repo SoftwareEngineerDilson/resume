@@ -1,13 +1,8 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* margin: 0px 200px; */
-  background: linear-gradient(90deg, #e6e9f0, #eef1f5);
+  background: #fff2c92a;
 }
-/* h1,
-h2,
-h4 {
-  color: darkslategrey;
-} */
 p,
 li {
   text-align: left;
